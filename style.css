@@ -1,0 +1,38 @@
+body {
+	font-family: 'Source Sans Pro', 'Microsoft Yahei', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: 'Source Sans Pro', 'Microsoft Yahei', sans-serif;
+}
+.clearfix:after {
+	content: " ";
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	clear: both;
+}
+.clearfix {
+	zoom: 1;
+}
+
+.nav .fa+span {
+	margin-left: 8px;
+}
+
+.user-panel > .info {
+	position: static;
+}
+
+.status-name {
+	font-weight: 600;
+}
+.box-btn-right {
+	margin-left: 10px;
+}
+
+.table > tbody > .with-btn-sm > td {
+	line-height: 29px;
+}
+.with-btn-sm .label+input {
+	margin-left: 10px;
+}
