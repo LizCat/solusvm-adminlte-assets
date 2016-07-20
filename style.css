@@ -36,3 +36,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .with-btn-sm .label+input {
 	margin-left: 10px;
 }
+
+.error-page > .headline {
+	float: none;
+	text-align: center;
+}
+.error-page > .error-content {
+	margin-left: 0;
+	text-align: center;
+}
