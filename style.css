@@ -45,3 +45,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	margin-left: 0;
 	text-align: center;
 }
+
+.table > tbody > tr > .reinstall-image, .table > tbody > tr > .reinstall-radio {
+	vertical-align: middle;
+}

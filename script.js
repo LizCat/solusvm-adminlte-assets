@@ -4,7 +4,11 @@ jQuery(document).ready(function($) {
 	window.dialogOpen = function(action) {
 		$('#actionTitle').text(modals[action].title);
 		$('#actionMsg').text(modals[action].msg);
-		$('#actionLink').attr('href', modals[action].url);
+		if (modals[action].url) {
+			$('#actionLink').attr('href', modals[action].url);
+		} else {
+			$('#actionLink').attr('href', '#').on('click', modals[action].callback);
+		}
 		$('#actionModal').modal('show');
 	};
 
