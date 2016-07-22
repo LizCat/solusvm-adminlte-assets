@@ -49,3 +49,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .table > tbody > tr > .reinstall-image, .table > tbody > tr > .reinstall-radio {
 	vertical-align: middle;
 }
+.table > tbody > tr > .reinstall-radio {
+	padding-left: 16px;
+	padding-right: 16px;
+}
