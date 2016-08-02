@@ -3,7 +3,7 @@ var modals = {
 jQuery(document).ready(function($) {
 	window.dialogOpen = function(action) {
 		$('#actionTitle').text(modals[action].title);
-		$('#actionMsg').text(modals[action].msg);
+		$('#actionMsg').html(modals[action].msg);
 		if (modals[action].url) {
 			$('#actionLink').attr('href', modals[action].url);
 		} else {
