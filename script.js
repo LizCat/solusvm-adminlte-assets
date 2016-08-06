@@ -7,7 +7,10 @@ jQuery(document).ready(function($) {
 		if (modals[action].url) {
 			$('#actionLink').attr('href', modals[action].url);
 		} else {
-			$('#actionLink').attr('href', '#').on('click', modals[action].callback);
+			$('#actionLink').attr('href', '#').on('click', function() {
+				modals[action].callback();
+				$('#actionLink').off('click');
+			});
 		}
 		$('#actionModal').modal('show');
 	};
