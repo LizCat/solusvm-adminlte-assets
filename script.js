@@ -9,9 +9,10 @@ jQuery(document).ready(function($) {
 		} else {
 			$('#actionLink').attr('href', '#').on('click', function() {
 				modals[action].callback();
-				$('#actionLink').off('click');
+				$(this).off('click');
 			});
 		}
+		$('#closeBtn').show();
 		$('#actionModal').modal('show');
 	};
 
