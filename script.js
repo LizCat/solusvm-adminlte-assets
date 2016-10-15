@@ -1,5 +1,8 @@
 var modals = {
 };
+$.backstretch("about:blank", {
+	centeredX: false
+});
 jQuery(document).ready(function($) {
 	window.dialogOpen = function(action) {
 		$('#actionTitle').text(modals[action].title);

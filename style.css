@@ -1,3 +1,6 @@
+html, body {
+	height: 100%;
+}
 body {
 	font-family: 'Source Sans Pro', 'Microsoft Yahei', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -13,6 +16,17 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 .clearfix {
 	zoom: 1;
+}
+
+.content-wrapper {
+	background-color: #ecf0f5 !important;
+}
+.backstretch img {
+	left: auto !important;
+	right: 0 !important;
+}
+.wrapper {
+	opacity: 0.85;
 }
 
 .nav .fa+span {
