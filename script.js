@@ -1,8 +1,5 @@
 var modals = {
 };
-$.backstretch("https://console.nyavm.com/template_assets/client/adminlte/images/bg.jpg", {
-	centeredX: true
-});
 jQuery(document).ready(function($) {
 	window.dialogOpen = function(action) {
 		$('#actionTitle').text(modals[action].title);
