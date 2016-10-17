@@ -1,7 +1,7 @@
 var modals = {
 };
-$.backstretch("about:blank", {
-	centeredX: false
+$.backstretch("https://console.nyavm.com/template_assets/client/adminlte/images/bg.jpg", {
+	centeredX: true
 });
 jQuery(document).ready(function($) {
 	window.dialogOpen = function(action) {
