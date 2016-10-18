@@ -21,10 +21,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .content-wrapper {
 	background-color: #ecf0f5 !important;
 }
-.backstretch img {
+/* .backstretch img {
 	left: auto !important;
 	right: 0 !important;
-}
+} */
 .wrapper {
 	opacity: 0.85;
 }
